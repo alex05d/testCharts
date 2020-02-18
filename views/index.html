@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.highcharts.com/highcharts.js"></script>
+    <title>HighCarts</title>
+</head>
+
+<body>
+    <!-- <button onclick="Export2Doc('exportContent');">Export as .doc</button> -->
+    <button onclick="generate()">Generate PDF</button>
+    <div class="container-fluid" id="exportContent">
+
+
+        <div id="spline" style="width:50%; height: 300px"></div>
+
+    </div>
+    <script src="./javascript/jspdf.min.js"></script>
+    <script src="./javascript/chart.js"></script>
+    <script src="./javascript/doc_gen.js"></script>
+</body>
+
+</html>
